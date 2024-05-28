@@ -446,7 +446,7 @@ lowest.
 
   ----------------------- ------------------------ -----------------------
 
-**Inception V3** &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; **ResNet 50 with Pre-Processing**
+**Inception V3** &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; **ResNet 50 with Pre-Processing**
 
 <img src="./images/image12.png" width="500" height="720"> <img src="./images/image13.png" width="500" height="720">
 
