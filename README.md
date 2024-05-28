@@ -69,8 +69,7 @@ the driver\'s state of drowsiness. (See figure below).
 ![](./images/image1.png)
 
 *Figure 1: Drowsiness Detection using CV-Lib*
-
-images of people yawning versus a closed mouth.
+***images of people yawning versus a closed mouth***
 
 ## Literature Review:
 
@@ -129,10 +128,9 @@ detection were the state of eyelid closures and mouth openings.
 
 The steps conducted to achieve the above were as follows:
 
-1)  Face detection and feature point location
+<u>1)  Face detection and feature point location</u>
 
-> ![](./images/image2.png){width="6.5in"
-> height="1.9861111111111112in"}
+> ![](./images/image2.png)
 >
 > A proposal network was the first step where images of different sizes
 > are obtained and then put into a network in sequence. A CNN is then
@@ -141,46 +139,41 @@ The steps conducted to achieve the above were as follows:
 > calibrated using the frame regression vector and suppressed to
 > eliminate overlapping face regions.
 >
-> ![](./images/image3.png){width="6.5in"
-> height="2.0277777777777777in"}
+> ![](./images/image3.png)
 >
 > The refined network takes the candidate face area from the proposal
 > network and adjusts the image size. It is screened by the bounding box
 > regression and a connection layer is added to obtain a more accurate
 > face position.
 >
-> ![](./images/image4.png){width="6.5in"
-> height="2.0277777777777777in"}
+> ![](./images/image4.png)
 >
 > Lastly, the output adjusts the image size to a 48\*48. The face in the
 > image is screened to obtain a final face position and the feature
 > points of interest (eyes, mouth, nose). See below final face positions
 > indicated in blue squares from the entire image.
 >
-> ![](./images/image5.png){width="6.5in"
-> height="1.8055555555555556in"}
+> ![](./images/image5.png)
 
-2)  [State of eye and mouth recognition]{.underline}
+<u>2)  State of eye and mouth recognition</u>
 
 > A two-eye image was used to determine whether participants\' eyes were
 > open or closed. The position of the driver's left and right eye was
 > obtained using the MTCNN:
 >
-> ![](./images/image6.png){width="3.026042213473316in"
-> height="1.17373687664042in"}
+> ![](./images/image6.png)
 
-Left eye position here is x1, y1 while the right eye position is x2, y2.
-Distance between the eyes is d1. Width of the eye image is w1. Height is
-h1. Similarly, the distance and position of the mouth is measured using
-the following formula:
+> Left eye position here is x1, y1 while the right eye position is x2, y2.
+> Distance between the eyes is d1. Width of the eye image is w1. Height is
+> h1. Similarly, the distance and position of the mouth is measured using
+> the following formula:
 
-![](./images/image7.png){width="3.2031255468066493in"
-height="1.3215080927384077in"}
+![](./images/image7.png)
 
-The position of the left corner of the mouth is x3, y3, and the position
-of the right corner of the mouth is x4, y4. The distance between the
-left and right corners is d2, the width of the mouth image is w2, and
-the height is h2.
+> The position of the left corner of the mouth is x3, y3, and the position
+> of the right corner of the mouth is x4, y4. The distance between the
+> left and right corners is d2, the width of the mouth image is w2, and
+> the height is h2.
 
 [EM-CNN architecture used]{.underline}
 
@@ -189,8 +182,7 @@ determine whether a) the eyes of the driver are open or closed, (b)
 whether the mouth is open or closed, and ultimately whether the driver
 is awake or sleepy.
 
-![](./images/image8.png){width="3.994792213473316in"
-height="2.917127077865267in"}
+![](./images/image8.png)
 
 Here we see that the images of the driver (input image) is adjusted to
 175\*175 to account for a real driving environment. A feature map was
@@ -215,8 +207,7 @@ using eye closure and mouth opening degrees. These were obtained using
 PERCLOS (percentage of eye closure time per unit time) and POM
 (percentage of mouth closure time per unit time) respectively.
 
-![](./images/image9.png){width="3.369792213473316in"
-height="0.8797244094488189in"}
+![](./images/image9.png)
 
 f1=closed frame of eye
 
@@ -227,8 +218,7 @@ N= total number of frames per unit time
 When PERCLOS is greater than 0.25 then the driver is in the closed eye
 state for a long time indicating drowsiness.
 
-![](./images/image10.png){width="3.1927088801399823in"
-height="1.0790168416447945in"}
+![](./images/image10.png)
 
 f1=frame of mouth open
 
@@ -347,8 +337,7 @@ threshold. After implementing this method and setting a low overlap
 threshold (10%), we saw a significant increase in our true positive
 mouth detection, as seen in the example below.
 
-![](./images/image11.png){width="4.8712051618547685in"
-height="2.1718755468066493in"}
+![](./images/image11.png)
 
 These mouth images were then also cropped along their bounding boxes,
 and each image (including the full facial images) was then resized and
