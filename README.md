@@ -1,6 +1,6 @@
 # Detecting Driver Drowsiness using Deep Learning Techniques
 
-Alex Link (acl5mt)
+Alex Link
 
 ## Abstract
 
@@ -68,8 +68,8 @@ the driver\'s state of drowsiness. (See figure below).
 
 ![](./images/image1.png)
 
-*Figure 1: Drowsiness Detection using CV-Lib*
-***images of people yawning versus a closed mouth***
+*Figure 1: Drowsiness Detection using CV-Lib* <br>
+*****{images of people yawning versus a closed mouth}*****
 
 ## Literature Review:
 
@@ -115,7 +115,7 @@ opted to approach this problem using the Convolutional Neural Network.
 We felt we would benefit from this method/approach as our problem
 formulation involves an image-based approach. To further explore this
 method, we came across a similar research conducted in 2020. (Source:
-[[https://www.hindawi.com/journals/cin/2020/7251280/#conflicts-of-interest]{.underline}](https://www.hindawi.com/journals/cin/2020/7251280/#conflicts-of-interest))
+[[https://www.hindawi.com/journals/cin/2020/7251280/#conflicts-of-interest]](https://www.hindawi.com/journals/cin/2020/7251280/#conflicts-of-interest))
 
 The study approached the problem using an image classification approach,
 where a driver fatigue detection algorithm using driving images was
