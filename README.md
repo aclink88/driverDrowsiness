@@ -66,7 +66,7 @@ CVLib. The CVLib library was used to train the facial landmarks where
 the landmark features were extracted from the pictures to help classify
 the driver\'s state of drowsiness. (See figure below).
 
-<img src="./images/image1.png" width="100" height="200">
+<img src="./images/image1.png" width="1000" height="200">
 
 *Figure 1: Drowsiness Detection using CV-Lib* <br>
 *****{images of people yawning versus a closed mouth}*****
