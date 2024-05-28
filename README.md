@@ -207,7 +207,9 @@ using eye closure and mouth opening degrees. These were obtained using
 PERCLOS (percentage of eye closure time per unit time) and POM
 (percentage of mouth closure time per unit time) respectively.
 
-![](./images/image9.png)
+<p align="center">
+   <img src="./images/image9.png"/>
+</p>
 
 f1=closed frame of eye
 
@@ -218,7 +220,9 @@ N= total number of frames per unit time
 When PERCLOS is greater than 0.25 then the driver is in the closed eye
 state for a long time indicating drowsiness.
 
-![](./images/image10.png)
+<p align="center">
+   <img src="./images/image10.png"/>
+</p>
 
 f1=frame of mouth open
 
