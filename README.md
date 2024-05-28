@@ -1,4 +1,4 @@
-# <p align="center" style="font-size:38px;">Detecting Driver Drowsiness using Deep Learning Techniques</p>
+# <p align="center" style="font-size:36px;">Detecting Driver Drowsiness using Deep Learning Techniques</p>
 
 Alex Link
 
@@ -66,7 +66,7 @@ CVLib. The CVLib library was used to train the facial landmarks where
 the landmark features were extracted from the pictures to help classify
 the driver\'s state of drowsiness. (See figure below).
 
-<img align="center" src="./images/image1.png" width="999" height="250">
+<img src="./images/image1.png" width="999" height="250" style="display: block; margin: 0 auto;"/>
 
 *Figure 1: Drowsiness Detection using CV-Lib* <br>
 *****{images of people yawning versus a closed mouth}*****
@@ -208,7 +208,7 @@ PERCLOS (percentage of eye closure time per unit time) and POM
 (percentage of mouth closure time per unit time) respectively.
 
 <p align="center">
-   <img align="center" src="./images/image9.png"/>
+   <img src="./images/image9.png" style="display: block; margin: 0 auto;"/>
 </p>
 
 f1=closed frame of eye
@@ -221,7 +221,7 @@ When PERCLOS is greater than 0.25 then the driver is in the closed eye
 state for a long time indicating drowsiness.
 
 <p align="center">
-   <img class="center" src="./images/image10.png"/>
+   <img src="./images/image10.png" style="display: block; margin: 0 auto;"/>
 </p>
 
 f1=frame of mouth open
@@ -342,7 +342,7 @@ threshold (10%), we saw a significant increase in our true positive
 mouth detection, as seen in the example below.
 
 <p align="center">
-   <img align="center" src="./images/image11.png"/>
+   <img src="./images/image11.png" style="display: block; margin: 0 auto;"/>
 </p>
 
 These mouth images were then also cropped along their bounding boxes,
