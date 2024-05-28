@@ -75,7 +75,7 @@ the driver\'s state of drowsiness. (See figure below).
 
 We conducted some research on the project idea and what past researchers
 have investigated to help the problem at stake. We explored the article
-([[https://arxiv.org/pdf/1811.01627.pdf]{.underline}](https://arxiv.org/pdf/1811.01627.pdf))
+([[https://arxiv.org/pdf/1811.01627.pdf]](https://arxiv.org/pdf/1811.01627.pdf))
 presented at the Ambient Systems, Networks and Technologies Conference.
 
 In a bid to increase accurateness and accelerate drowsiness detection,
