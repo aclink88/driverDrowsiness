@@ -1,4 +1,4 @@
-# <p align="center" style="font-size:48px;">Detecting Driver Drowsiness using Deep Learning Techniques</p>
+# <p align="center" style="font-size:38px;">Detecting Driver Drowsiness using Deep Learning Techniques</p>
 
 Alex Link
 
@@ -221,7 +221,7 @@ When PERCLOS is greater than 0.25 then the driver is in the closed eye
 state for a long time indicating drowsiness.
 
 <p align="center">
-   <img align="center" src="./images/image10.png"/>
+   <img class="center" src="./images/image10.png"/>
 </p>
 
 f1=frame of mouth open
