@@ -337,7 +337,9 @@ threshold. After implementing this method and setting a low overlap
 threshold (10%), we saw a significant increase in our true positive
 mouth detection, as seen in the example below.
 
+<p align="center">
 ![](./images/image11.png)
+</p>
 
 These mouth images were then also cropped along their bounding boxes,
 and each image (including the full facial images) was then resized and
