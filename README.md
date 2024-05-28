@@ -338,7 +338,9 @@ threshold (10%), we saw a significant increase in our true positive
 mouth detection, as seen in the example below.
 
 <p align="center">
+  
 ![](./images/image11.png)
+
 </p>
 
 These mouth images were then also cropped along their bounding boxes,
