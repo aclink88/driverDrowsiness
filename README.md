@@ -451,6 +451,8 @@ lowest.
 ![](./images/image12.png | width=50)
 ![](./images/image13.png | width=50)
 
+<img src="./images/image12" width="100" height="390">
+
 The plots above show us the training and validation accuracies and loss
 for the pre-trained Inception V3 and ResNet 50 architectures. As the
 number of epochs increase we see a decrease in both the training and
