@@ -128,7 +128,7 @@ detection were the state of eyelid closures and mouth openings.
 
 The steps conducted to achieve the above were as follows:
 
-<u>1)  Face detection and feature point location</u>
+<ins>1)  Face detection and feature point location</ins>
 
 > ![](./images/image2.png)
 >
@@ -155,7 +155,7 @@ The steps conducted to achieve the above were as follows:
 >
 > ![](./images/image5.png)
 >
-<u>2)  State of eye and mouth recognition</u>
+<ins>2)  State of eye and mouth recognition</ins>
 >
 > A two-eye image was used to determine whether participants\' eyes were
 > open or closed. The position of the driver's left and right eye was
@@ -168,7 +168,7 @@ The steps conducted to achieve the above were as follows:
 > h1. Similarly, the distance and position of the mouth is measured using
 > the following formula:
 >
-![](./images/image7.png)
+>![](./images/image7.png)
 >
 > The position of the left corner of the mouth is x3, y3, and the position
 > of the right corner of the mouth is x4, y4. The distance between the
