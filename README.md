@@ -154,28 +154,28 @@ The steps conducted to achieve the above were as follows:
 > indicated in blue squares from the entire image.
 >
 > ![](./images/image5.png)
-
+>
 <u>2)  State of eye and mouth recognition</u>
-
+>
 > A two-eye image was used to determine whether participants\' eyes were
 > open or closed. The position of the driver's left and right eye was
 > obtained using the MTCNN:
 >
 > ![](./images/image6.png)
-
+>
 > Left eye position here is x1, y1 while the right eye position is x2, y2.
 > Distance between the eyes is d1. Width of the eye image is w1. Height is
 > h1. Similarly, the distance and position of the mouth is measured using
 > the following formula:
-
+>
 ![](./images/image7.png)
-
+>
 > The position of the left corner of the mouth is x3, y3, and the position
 > of the right corner of the mouth is x4, y4. The distance between the
 > left and right corners is d2, the width of the mouth image is w2, and
 > the height is h2.
 
-[EM-CNN architecture used]{.underline}
+## <ins>EM-CNN architecture used</ins>
 
 The architecture used was an eye mouth, convolutional neural network to
 determine whether a) the eyes of the driver are open or closed, (b)
