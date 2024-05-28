@@ -378,15 +378,65 @@ had the highest validation accuracy rate with the custom CNN having the
 lowest.
 
   ----------------------- ------------------------ -----------------------
-  **Model**               **Training Accuracy**    **Validation Accuracy**
-
-  ResNet 50 (Baseline)    .9940                    .9672
-
-  Custom CNN              .8701                    .8826
-
-  ResNet 50               .9692                    .9734
-
-  Inception V3            .9586                    .9556
+<table width="482">
+<tbody>
+<tr>
+<td width="158">
+<p><strong>Model</strong></p>
+</td>
+<td width="166">
+<p><strong>Training Accuracy</strong></p>
+</td>
+<td width="158">
+<p><strong>Validation Accuracy</strong></p>
+</td>
+</tr>
+<tr>
+<td width="158">
+<p>ResNet 50 (Baseline)</p>
+</td>
+<td width="166">
+<p>.9940</p>
+</td>
+<td width="158">
+<p>.9672</p>
+</td>
+</tr>
+<tr>
+<td width="158">
+<p>Custom CNN</p>
+</td>
+<td width="166">
+<p>.8701</p>
+</td>
+<td width="158">
+<p>.8826</p>
+</td>
+</tr>
+<tr>
+<td width="158">
+<p>ResNet 50</p>
+</td>
+<td width="166">
+<p>.9692</p>
+</td>
+<td width="158">
+<p>.9734</p>
+</td>
+</tr>
+<tr>
+<td width="158">
+<p>Inception V3</p>
+</td>
+<td width="166">
+<p>.9586</p>
+</td>
+<td width="158">
+<p>.9556</p>
+</td>
+</tr>
+</tbody>
+</table>
   ----------------------- ------------------------ -----------------------
 
 **Inception V3** **ResNet 50 with
