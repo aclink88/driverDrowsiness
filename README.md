@@ -491,8 +491,6 @@ conduct in deep learning.
 
 ## 
 
-## 
-
 ## References
 
 "Driver Drowsiness Detection System with OpenCV & Keras." DataFlair, 4
