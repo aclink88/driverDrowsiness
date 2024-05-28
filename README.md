@@ -378,7 +378,7 @@ had the highest validation accuracy rate with the custom CNN having the
 lowest.
 
   ----------------------- ------------------------ -----------------------
-<table width="482">
+<table width="482" class="center">
 <tbody>
 <tr>
 <td width="158">
