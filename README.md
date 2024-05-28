@@ -447,9 +447,7 @@ lowest.
   ----------------------- ------------------------ -----------------------
 
 **Inception V3** **ResNet 50 with
-Pre-Processing**![](./images/image12.png){width="2.776042213473316in"
-height="3.4812456255468067in"}![](./images/image13.png){width="2.7031255468066493in"
-height="3.5420253718285215in"}
+Pre-Processing**![](./images/image12.png)![](./images/image13.png)
 
 The plots above show us the training and validation accuracies and loss
 for the pre-trained Inception V3 and ResNet 50 architectures. As the
