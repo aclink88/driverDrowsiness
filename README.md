@@ -128,7 +128,7 @@ detection were the state of eyelid closures and mouth openings.
 
 The steps conducted to achieve the above were as follows:
 
-<ins>1)  Face detection and feature point location</ins>
+1)  <ins>Face detection and feature point location</ins>
 
 > ![](./images/image2.png)
 >
@@ -155,7 +155,7 @@ The steps conducted to achieve the above were as follows:
 >
 > ![](./images/image5.png)
 >
-<ins>2)  State of eye and mouth recognition</ins>
+2)  <ins>State of eye and mouth recognition</ins>
 >
 > A two-eye image was used to determine whether participants\' eyes were
 > open or closed. The position of the driver's left and right eye was
@@ -200,7 +200,7 @@ layer. Once fully connected, the classification result is output using
 softmax. Classification results indicate whether the eyes and/or mouth
 are open or closed.
 
-[Fatigue state detection:]{.underline}
+## <ins>Fatigue state detection:</ins>
 
 The study then went on to calculate the fatigue state of the driver
 using eye closure and mouth opening degrees. These were obtained using
