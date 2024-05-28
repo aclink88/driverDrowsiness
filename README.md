@@ -1,4 +1,4 @@
-# <p align="center" style="font-size:52px;">Detecting Driver Drowsiness using Deep Learning Techniques</p>
+# <p align="center" style="font-size:64px;">Detecting Driver Drowsiness using Deep Learning Techniques</p>
 
 Alex Link
 
